@@ -2,3 +2,41 @@ html, body {
   margin:0;
   background-color: #F4F4F4; /* PAPER */
 }
+
+.wrap {
+  width: 60%;
+  margin:auto;
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 20px 0px 20px 0px;
+  border-radius: 0 0 20px 20px;
+}
+
+a {
+  background-color: #373737; /*CHARCOAL */
+  color: #FFF; /* WHITE */
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #000; /* BLACK */
+  box shadow: 1px 1px 5px 1px #000; /* BLACK */
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.odLink {
+ padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .wrap {
+    width: 100%;
+    margin:auto;
+    display: block;
+    border-radius: 0px;
+  }  
+}
